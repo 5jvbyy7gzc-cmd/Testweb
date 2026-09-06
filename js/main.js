@@ -16,6 +16,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  var carousel = document.getElementById('dish-carousel');
+  var prevBtn = document.querySelector('.carousel-arrow.prev');
+  var nextBtn = document.querySelector('.carousel-arrow.next');
+
+  if (carousel && prevBtn && nextBtn) {
+    var scrollByCard = function (direction) {
+      var item = carousel.querySelector('.carousel-item');
+      var gap = 28;
+      var amount = (item ? item.offsetWidth : 300) + gap;
+      carousel.scrollBy({ left: direction * amount, behavior: 'smooth' });
+    };
+    prevBtn.addEventListener('click', function () { scrollByCard(-1); });
+    nextBtn.addEventListener('click', function () { scrollByCard(1); });
+  }
+
   var form = document.getElementById('contact-form');
   var formStatus = document.getElementById('form-status');
 
