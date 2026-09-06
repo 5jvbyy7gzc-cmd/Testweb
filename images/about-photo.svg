@@ -11,6 +11,6 @@
     <circle cx="450" cy="550" r="300"/>
     <circle cx="450" cy="550" r="220"/>
   </g>
-  <text x="450" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#F6F1E7" opacity="0.85">Restaurant- &amp; Küchenfoto</text>
-  <text x="450" y="576" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="2" fill="#F6F1E7" opacity="0.6">PLATZHALTER — AUF DER ÜBER-UNS-SEITE ERSETZEN</text>
+  <text x="450" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#F6F1E7" opacity="0.85">Restaurant &amp; Kitchen Photo</text>
+  <text x="450" y="576" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="2" fill="#F6F1E7" opacity="0.6">PLACEHOLDER — REPLACE ON ABOUT PAGE</text>
 </svg>

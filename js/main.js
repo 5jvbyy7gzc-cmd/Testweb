@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // TODO: wire this up to a real form backend (e.g. Formspree, Netlify Forms,
       // or your own endpoint) — this currently only confirms client-side.
       if (formStatus) {
-        formStatus.textContent = 'Vielen Dank! Ihre Nachricht wurde übermittelt — wir melden uns in Kürze bei Ihnen.';
+        formStatus.textContent = 'Thank you! Your message has been noted — we will get back to you shortly.';
       }
       form.reset();
     });
