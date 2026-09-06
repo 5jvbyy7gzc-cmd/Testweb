@@ -13,7 +13,7 @@ Static HTML/CSS/JS site for TEHERAN, a Persian restaurant in Koblenz, Germany.
 
 - `images/about-photo.svg` — the only remaining placeholder graphic; swap it for a real photo
   of the restaurant or kitchen (update the `src` in `about.html` to a `.jpg`/`.webp`).
-  The homepage hero (`images/hero-restaurant.jpg`), the logo (`images/logo.jpg`), and the four
+  The homepage hero (`images/hero-restaurant.jpg`), the logo (`images/logo.png`), and the four
   dish carousel photos (`images/dish-*.jpg`) are already real photos.
 - Address, phone, email, and opening hours — currently placeholder values in the footer of
   every page and on the Contact page. Search for `Musterstraße 12` and `+49 000 000000`.
