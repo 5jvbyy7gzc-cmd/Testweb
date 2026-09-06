@@ -254,15 +254,6 @@ section { padding: 88px 0; }
 
 .hero-copy h1 { color: var(--cream); }
 
-.hero-logo {
-  width: 92px;
-  height: 92px;
-  object-fit: contain;
-  margin-bottom: 24px;
-  border-radius: 50%;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
-}
-
 .hero-copy .tagline {
   font-family: var(--font-heading);
   font-style: italic;
