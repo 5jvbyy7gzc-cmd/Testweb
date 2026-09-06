@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — TEHERAN</title>
+<meta name="description" content="Get in touch with TEHERAN, an authentic Persian restaurant in Koblenz. Find our address, phone number, opening hours, and directions.">
+<link rel="icon" type="image/jpeg" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="nav-brand" href="index.html">
+      <img src="images/logo.jpg" alt="TEHERAN Persian Restaurant logo">
+      <span class="nav-brand-name">TEHERAN</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-menu">
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="#contact-form">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section style="padding-top:56px;">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:48px;">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Contact TEHERAN</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <form id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="form-status" class="form-note" role="status"></p>
+          </form>
+        </div>
+
+        <div>
+          <div class="info-card">
+            <div>
+              <h4>Address</h4>
+              <div>Musterstraße 12, 56068 Koblenz, Germany</div>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <div><a href="tel:+49000000000">+49 000 000000</a></div>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <div><a href="mailto:info@teheran-koblenz.de">info@teheran-koblenz.de</a></div>
+            </div>
+            <div>
+              <h4>Opening Hours</h4>
+              <div>Mon – Sun: 12:00 – 22:00</div>
+            </div>
+          </div>
+
+          <div class="btn-row" style="margin-bottom:28px;">
+            <a class="btn btn-outline" href="https://maps.google.com/?q=Koblenz+Germany" target="_blank" rel="noopener">Get Directions</a>
+            <a class="btn btn-ghost" href="https://search.google.com/local/writereview?placeid=REPLACE_WITH_YOUR_PLACE_ID" target="_blank" rel="noopener">Leave Us a Google Review</a>
+          </div>
+
+          <div class="map-frame">
+            <!-- Replace this generic Koblenz map query with an embed centered on your exact address -->
+            <iframe
+              src="https://www.google.com/maps?q=Koblenz,Germany&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Map showing TEHERAN's location in Koblenz">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand-name">TEHERAN</div>
+        <p>Authentic Persian Cuisine in Koblenz</p>
+      </div>
+      <div class="footer-col">
+        <h4>Visit Us</h4>
+        <div>Musterstraße 12, 56068 Koblenz, Germany</div>
+        <div><a href="tel:+49000000000">+49 000 000000</a></div>
+        <div><a href="https://maps.google.com/?q=Koblenz+Germany" target="_blank" rel="noopener">Get Directions</a></div>
+      </div>
+      <div class="footer-col">
+        <h4>Opening Hours</h4>
+        <div>Mon – Sun: 12:00 – 22:00</div>
+        <h4 style="margin-top:20px;">Follow Us</h4>
+        <div><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 TEHERAN Restaurant, Koblenz</span>
+      <span>All placeholder details — replace with real address, phone &amp; hours</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
