@@ -216,7 +216,8 @@ section { padding: 88px 0; }
 .hero {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
   min-height: 560px;
   height: 82vh;
   max-height: 720px;
@@ -237,11 +238,10 @@ section { padding: 88px 0; }
   inset: 0;
   z-index: 1;
   background: linear-gradient(
-    0deg,
-    rgba(43, 33, 28, 0.92) 0%,
-    rgba(43, 33, 28, 0.68) 32%,
-    rgba(43, 33, 28, 0.18) 62%,
-    rgba(43, 33, 28, 0) 82%
+    180deg,
+    rgba(43, 33, 28, 0.62) 0%,
+    rgba(43, 33, 28, 0.5) 50%,
+    rgba(43, 33, 28, 0.68) 100%
   );
 }
 
@@ -250,6 +250,7 @@ section { padding: 88px 0; }
   z-index: 2;
   padding: 48px 0 56px;
   color: var(--cream);
+  text-align: center;
 }
 
 .hero-copy h1 { color: var(--cream); }
@@ -266,8 +267,12 @@ section { padding: 88px 0; }
 .hero-copy p.lead {
   font-size: 1.08rem;
   max-width: 46ch;
+  margin-left: auto;
+  margin-right: auto;
   color: rgba(245, 239, 227, 0.88);
 }
+
+.hero-copy .btn-row { justify-content: center; }
 
 .btn-outline-light {
   background: transparent;
@@ -523,23 +528,9 @@ section { padding: 88px 0; }
 
 @media (max-width: 860px) {
   .hero {
-    height: auto;
-    min-height: 0;
-    max-height: none;
+    min-height: 480px;
+    height: 70vh;
   }
-
-  .hero-scrim {
-    background: linear-gradient(
-      0deg,
-      rgba(43, 33, 28, 0.95) 0%,
-      rgba(43, 33, 28, 0.8) 45%,
-      rgba(43, 33, 28, 0.35) 100%
-    );
-  }
-
-  .hero-bg { position: relative; height: 420px; }
-
-  .hero { display: block; }
 
   .about-grid,
   .contact-grid,
