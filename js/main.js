@@ -30,19 +30,4 @@ document.addEventListener('DOMContentLoaded', function () {
     prevBtn.addEventListener('click', function () { scrollByCard(-1); });
     nextBtn.addEventListener('click', function () { scrollByCard(1); });
   }
-
-  var form = document.getElementById('contact-form');
-  var formStatus = document.getElementById('form-status');
-
-  if (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      // TODO: wire this up to a real form backend (e.g. Formspree, Netlify Forms,
-      // or your own endpoint) — this currently only confirms client-side.
-      if (formStatus) {
-        formStatus.textContent = 'Vielen Dank! Ihre Nachricht wurde übermittelt — wir melden uns in Kürze bei Ihnen.';
-      }
-      form.reset();
-    });
-  }
 });

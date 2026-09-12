@@ -475,42 +475,6 @@ section { padding: 88px 0; }
   align-items: start;
 }
 
-.form-field { margin-bottom: 20px; }
-
-.form-field label {
-  display: block;
-  font-size: 0.85rem;
-  letter-spacing: 0.5px;
-  margin-bottom: 6px;
-  color: rgba(43, 33, 28, 0.75);
-}
-
-.form-field input,
-.form-field textarea {
-  width: 100%;
-  padding: 13px 14px;
-  border: 1px solid rgba(43, 33, 28, 0.25);
-  border-radius: var(--radius);
-  background: var(--cream);
-  font-family: var(--font-body);
-  font-size: 0.98rem;
-  color: var(--ink);
-}
-
-.form-field input:focus,
-.form-field textarea:focus {
-  outline: none;
-  border-color: var(--red);
-}
-
-.form-field textarea { resize: vertical; min-height: 130px; }
-
-.form-note {
-  font-size: 0.85rem;
-  color: rgba(43, 33, 28, 0.6);
-  margin-top: 10px;
-}
-
 .info-card {
   background: var(--cream-alt);
   border-radius: var(--radius);
